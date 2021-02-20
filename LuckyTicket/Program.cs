@@ -35,8 +35,6 @@ namespace LuckyTicket
                         number2sum += number2 % 10;
                         number2 /= 10;
                     }
-                    Console.WriteLine(number1sum);
-                    Console.WriteLine(number2sum);
                     if (number1sum == number2sum)
                     {
                         Console.WriteLine("Congratulations, your ticket is lucky!");
